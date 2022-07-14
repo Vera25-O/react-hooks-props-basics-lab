@@ -19,3 +19,4 @@ test("displays the URL of a Linkedin link passed down as a prop", () => {
     screen.queryByText("https://www.linkedin.com/in/liza/")
   ).toBeInTheDocument();
 });
+
